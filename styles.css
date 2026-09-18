@@ -153,6 +153,9 @@ h2{font-size:clamp(2rem,3.6vw,2.9rem);font-weight:800;letter-spacing:-.015em;lin
 .fine-list li span:last-child{font-weight:600;white-space:nowrap}
 .fine-list.plain li{display:block;color:var(--charcoal-soft);font-weight:300;line-height:1.5}
 
+#about-cart{padding-bottom:16px}
+.about-cta{justify-content:center;margin-top:0}
+
 .book{background:var(--white)}
 
 /* ---------- Promise / CTA banner ---------- */
