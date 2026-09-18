@@ -167,7 +167,7 @@ h2{font-size:clamp(2rem,3.6vw,2.9rem);font-weight:800;letter-spacing:-.015em;lin
 .promise p{font-weight:300;max-width:34rem;opacity:.93}
 
 /* ---------- Visit ---------- */
-.visit-orange{background:var(--orange);color:var(--cream);padding-top:10px}
+.hero-visit{position:relative;z-index:3;margin-top:56px;color:var(--cream)}
 .sec-head-light h2{color:var(--cream)}
 .sec-head-light p{color:rgba(255,255,255,.85)}
 .menu-strip-light{background:rgba(255,255,255,.16);color:var(--cream)}
