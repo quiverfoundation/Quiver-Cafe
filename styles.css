@@ -153,6 +153,9 @@ h2{font-size:clamp(2rem,3.6vw,2.9rem);font-weight:800;letter-spacing:-.015em;lin
 .fine-list li span:last-child{font-weight:600;white-space:nowrap}
 .fine-list.plain li{display:block;color:var(--charcoal-soft);font-weight:300;line-height:1.5}
 
+.team-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.team-grid img{width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:var(--radius);box-shadow:var(--shadow)}
+
 #about-cart{padding-bottom:16px}
 .about-cta{justify-content:center;margin-top:0}
 
@@ -221,6 +224,7 @@ footer{background:var(--charcoal);color:var(--cream);padding:72px 0 34px}
   .splash-hero{padding:64px 0 80px}
   .splash-hero h1 .line2{font-size:1.15rem;letter-spacing:.16em;margin-top:14px}
   section{padding:64px 0}
+  .team-grid{grid-template-columns:1fr}
   .price-grid{grid-template-columns:1fr}
   .package-tiles{grid-template-columns:1fr}
   .fine-grid{grid-template-columns:1fr}
