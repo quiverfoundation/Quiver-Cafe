@@ -8,7 +8,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500;600;800&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/styles.css?v=7">
+<link rel="stylesheet" href="/styles.css?v=9">
 </head>
 <body>
 
@@ -60,11 +60,26 @@
 
   <section id="team">
     <div class="wrap">
-      <div class="team-grid">
-        <img src="/images/cafe-team-1.jpg" alt="A Quiver Café team member outside the café on Victoria Rd, Woodstock" loading="lazy">
-        <img src="/images/cafe-team-2.jpg" alt="A Quiver Café barista pulling an espresso shot" loading="lazy">
-        <img src="/images/cafe-team-3.jpg" alt="A Quiver Café team member plating a waffle behind the counter" loading="lazy">
+      <div class="sec-head">
+        <h2>A story behind every coffee</h2>
       </div>
+      <div class="team-grid">
+        <div class="video-block team-video no-video" data-youtube="">
+          <img class="video-poster" src="/images/cafe-team-ashraf.jpg" alt="Ashraf, part of the Quiver Café team" loading="lazy">
+          <div class="video-cap"><h3>Ashraf</h3></div>
+        </div>
+        <div class="video-block team-video" data-youtube="jMfyn2qx41E">
+          <img class="video-poster" src="/images/cafe-team-werner.jpg" alt="Werner, part of the Quiver Café team" loading="lazy">
+          <span class="play" aria-hidden="true"></span>
+          <div class="video-cap"><h3>Werner</h3></div>
+        </div>
+        <div class="video-block team-video" data-youtube="nAd2yXua60w">
+          <img class="video-poster" src="/images/cafe-team-quincy.jpg" alt="Quincy, part of the Quiver Café team" loading="lazy">
+          <span class="play" aria-hidden="true"></span>
+          <div class="video-cap"><h3>Quincy</h3></div>
+        </div>
+      </div>
+      <p class="team-caption">Click a photo to watch their story.</p>
     </div>
   </section>
 
@@ -83,7 +98,7 @@
 
       <div class="promise">
         <div>
-          <h3>Ready to book the café?</h3>
+          <h3>Ready to hire the café?</h3>
           <p>Send your date, guest count, and which pricing option you'd like — we'll get back to you to confirm availability. Need us to come to you instead? That's what the cart below is for.</p>
         </div>
         <a class="btn light" href="mailto:cafe@quiverfoundation.org?subject=Booking%3A%20Hire%20the%20caf%C3%A9&body=Hi%20Quiver%20team%2C%0A%0AI'd%20like%20to%20book%20the%20caf%C3%A9%20for%20a%20private%20event.%0A%0ADate%3A%0A%0AGuest%20count%20%28up%20to%2028%29%3A%0A%0AWhich%20option%3F%0A-%20Flat%20fee%20R2%2C000%2C%20guests%20buy%20their%20own%20waffles%20%26%20coffee%0A-%20Flat%20fee%20%2B%20R80pp%2C%20waffles%20%26%20coffee%20included%20for%20guests%0A-%20Flat%20fee%20%2B%20R120pp%2C%20gourmet%20waffles%20%26%20coffee%20included%20for%20guests%0A%0AAnything%20else%20we%20should%20know%3A%0A%0AThanks!">Email cafe@quiverfoundation.org</a>
@@ -91,30 +106,16 @@
     </div>
   </section>
 
-  <section id="about-cart">
-    <div class="wrap">
-      <div class="sec-head">
-        <h2>The Cart</h2>
-        <p>We bring barista-made coffee and hot Belgian Liège waffles to your birthday, wedding, market or company day — anywhere within 30&nbsp;km of Woodstock, Cape Town.</p>
-      </div>
-      <div class="splash-cta about-cta">
-        <a class="btn" href="#pricing">See pricing</a>
-        <a class="btn ghost" href="#book">Book the cart</a>
-      </div>
-    </div>
-  </section>
-
   <section id="pricing">
     <div class="wrap">
       <div class="sec-head">
-        <span class="menu-strip">Pricing</span>
-        <h2>Two ways to book the cart</h2>
-        <p>Half day is 4 hours of service, full day is 8. Within 30&nbsp;km of Woodstock, cashless on the day, all prices include VAT.</p>
+        <h2>Book the Cart</h2>
+        <p>We bring barista-made coffee and hot Belgian Liège waffles to your birthday, wedding, market or company day — anywhere within 30&nbsp;km of Woodstock, Cape Town. Half day is 4 hours of service, full day is 8, cashless on the day, all prices include VAT.</p>
       </div>
 
       <div class="price-grid">
         <div class="price-card">
-          <span class="tag-num">01</span>
+          <span class="tag-num">Option 1</span>
           <h3>Cart On Site — Guests Pay</h3>
           <p>You cover getting the cart there and running it. Your guests order and pay individually, at cart menu prices.</p>
           <div class="table-scroll">
@@ -134,7 +135,7 @@
         </div>
 
         <div class="price-card">
-          <span class="tag-num">02</span>
+          <span class="tag-num">Option 2</span>
           <h3>Pre-Paid Packages — You Host</h3>
           <p>Minimum 20 guests, billed on the headcount you expect. You cover your guests up front — nothing further for them to pay.</p>
           <div class="package-tiles">

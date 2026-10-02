@@ -153,9 +153,14 @@ h2{font-size:clamp(2rem,3.6vw,2.9rem);font-weight:800;letter-spacing:-.015em;lin
 .fine-list li span:last-child{font-weight:600;white-space:nowrap}
 .fine-list.plain li{display:block;color:var(--charcoal-soft);font-weight:300;line-height:1.5}
 
-.tile-row{text-align:center;margin-bottom:32px}
 .team-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
-.team-grid img{width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:var(--radius);box-shadow:var(--shadow)}
+.team-grid .video-block{aspect-ratio:4/3}
+.team-grid .video-cap{padding:18px}
+.team-grid .video-cap h3{font-size:1rem}
+.team-grid .play{width:56px;height:56px}
+.team-grid .play::before{border-left-width:14px;border-top-width:9px;border-bottom-width:9px}
+.video-block.no-video{cursor:default}
+.team-caption{text-align:center;color:var(--charcoal-soft);font-weight:300;font-size:.82rem;margin-top:24px}
 
 #hire-cafe{padding-bottom:16px}
 .hire-pricing{max-width:40rem;margin:0 auto 48px}
