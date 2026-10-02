@@ -157,6 +157,10 @@ h2{font-size:clamp(2rem,3.6vw,2.9rem);font-weight:800;letter-spacing:-.015em;lin
 .team-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
 .team-grid img{width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:var(--radius);box-shadow:var(--shadow)}
 
+#hire-cafe{padding-bottom:16px}
+.hire-pricing{max-width:40rem;margin:0 auto 48px}
+.hire-pricing li strong{color:var(--charcoal)}
+
 #about-cart{padding-bottom:16px}
 .about-cta{justify-content:center;margin-top:0}
 
