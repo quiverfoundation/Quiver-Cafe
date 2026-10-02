@@ -33,7 +33,7 @@ body{
 .mark.left{text-align:left}
 .mark .q{font-weight:800;letter-spacing:.1em;font-size:1.28rem;display:block}
 .mark .q.kamerik{font-weight:700;letter-spacing:.04em}
-.mark .sub{font-family:'Kamerik105',Poppins,system-ui,sans-serif;font-weight:700;letter-spacing:.16em;font-size:.56rem;display:block;margin-top:6px}
+.mark .sub{font-family:'Poppins',system-ui,sans-serif;font-weight:200;text-transform:uppercase;letter-spacing:.16em;font-size:.56rem;display:block;margin-top:6px}
 .logo-link{text-decoration:none;color:inherit}
 
 /* ---------- Nav ---------- */
