@@ -163,8 +163,12 @@ h2{font-size:clamp(2rem,3.6vw,2.9rem);font-weight:800;letter-spacing:-.015em;lin
 .team-caption{text-align:center;color:var(--charcoal-soft);font-weight:300;font-size:.82rem;margin-top:24px}
 
 #hire-cafe{padding-bottom:16px}
-.hire-pricing{max-width:40rem;margin:0 auto 48px}
-.hire-pricing li strong{color:var(--charcoal)}
+.hire-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;margin-bottom:48px}
+.hire-card{background:var(--white);border-radius:var(--radius);padding:32px 28px;box-shadow:var(--shadow)}
+.hire-card .hire-price{display:block;font-size:1.8rem;font-weight:800;color:var(--orange-deep)}
+.hire-card .hire-sub{display:block;font-size:.68rem;color:var(--charcoal-soft);text-transform:uppercase;letter-spacing:.06em;margin-top:2px;margin-bottom:18px}
+.hire-card h3{font-size:1rem;font-weight:700;margin-bottom:10px}
+.hire-card p{font-size:.86rem;color:var(--charcoal-soft);font-weight:300}
 
 #about-cart{padding-bottom:16px}
 .about-cta{justify-content:center;margin-top:0}
@@ -235,6 +239,7 @@ footer{background:var(--charcoal);color:var(--cream);padding:72px 0 34px}
   .splash-hero h1 .line2{font-size:1.15rem;letter-spacing:.16em;margin-top:14px}
   section{padding:64px 0}
   .team-grid{grid-template-columns:1fr}
+  .hire-grid{grid-template-columns:1fr}
   .price-grid{grid-template-columns:1fr}
   .package-tiles{grid-template-columns:1fr}
   .fine-grid{grid-template-columns:1fr}
